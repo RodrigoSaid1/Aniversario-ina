@@ -1,0 +1,33 @@
+.dataEndereco {
+  display: inline;
+  border-radius: 0.5rem;
+  font-size: 3.1rem;
+  font-family: "Great Vibes", cursive;
+  border: solid #9019d9; 
+  
+}
+.dataEndereco span{
+  display: inline;
+}
+.data {
+  display: inline;
+  justify-content: center;
+}
+.endereco {
+ 
+  text-align: center;
+}
+.material{
+  font-family: "Material Icons";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 50px; /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  padding: 1rem;
+}

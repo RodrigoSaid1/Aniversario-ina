@@ -1,0 +1,9 @@
+.convites {
+    padding-top: 1rem;
+    font-size: 7rem;
+    text-align: center;
+    font-family: "Great Vibes", cursive;
+    color: #cc0066;
+    size: 3.1rem;
+    -webkit-text-stroke: 1px white;
+}
