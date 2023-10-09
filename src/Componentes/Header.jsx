@@ -1,17 +1,12 @@
-import { AppBar, Toolbar, Typography, Container } from "@mui/material";
-
-function Header () {
+import Box from "@mui/material/Box";
+import Fab from "@mui/material/Fab";
+import FavoriteIcon from "@mui/icons-material/Favorite";
+export default function FloatingActionButtons () {
     return (
-        <AppBar position="static" color="primary">
-            <Container>
-                <Toolbar>
-                    <Typography variant="h6" align="center" style={{ flexGrow: 1 }}>
-            Tardezinha
-                    </Typography>
-                </Toolbar>
-            </Container>
-        </AppBar>
+        <Box sx={{ "& > :not(style)": { m: 1 } }}>
+            <Fab disabled aria-label="like">
+                <FavoriteIcon />
+            </Fab>
+        </Box>
     );
 }
-
-export default Header;

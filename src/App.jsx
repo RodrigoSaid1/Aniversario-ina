@@ -1,5 +1,6 @@
 import { useMemo } from "react";
-import { Container, Grid, CssBaseline, ThemeProvider, createTheme, styled, Divider } from "@mui/material";
+import styles from "./App.module.css";
+import { Container, Grid, CssBaseline, ThemeProvider, createTheme, styled, Divider, Button } from "@mui/material";
 import Convite from "./Componentes/Convite";
 import "./Global.css";
 import Frase from "./Componentes/Frase";
@@ -7,6 +8,8 @@ import Endereco from "./Componentes/Endereco";
 import Presentes from "./Componentes/Presentes";
 import ListaPresentes from "./Componentes/ListaPresentes";
 import Pix from "./Componentes/Pix";
+import { Instagram } from "@mui/icons-material";
+import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import backgroundImage from "./assets/tardizinha.jpg";
 import presente1 from "./assets/presente1.jpg";
 import presente2 from "./assets/presente2.jpg";
@@ -21,6 +24,8 @@ import presente10 from "./assets/presente10.jpg";
 import presente11 from "./assets/presente11.jpg";
 import presente12 from "./assets/presente12.jpg";
 import presente13 from "./assets/presente13.jpg";
+import presente14 from "./assets/presente14.jpg";
+import presente15 from "./assets/presente15.jpg";
 
 
 const post = [
@@ -128,6 +133,22 @@ const post = [
             preco: "R$ 54,99",
         },
     },
+    {
+        id: 14,
+        imagem: {
+            imagemURL: presente14,
+            name: "Blusa Ursinho",
+            preco: "R$ 29,99",
+        },
+    },
+    {
+        id: 15,
+        imagem: {
+            imagemURL: presente15,
+            name: "Vestido Curto Florido",
+            preco: "R$ 50,11",
+        },
+    },
 
 ];
 
@@ -163,6 +184,7 @@ function App () {
             <CssBaseline />
             <div style={backgroundStyle}>
                 <StyledContainer maxWidth={ isMobileDevice ? "sm" : "lg" }>
+
                     <Convite />
                     <Frase />
                     <Endereco />
@@ -174,6 +196,14 @@ function App () {
                         <Divider/>
                     </Grid>
                     <Pix />
+                    <div className={styles.Instagram}>
+                        <Instagram
+                            padding = "2rem"
+                        />
+                        <Button href="https://www.instagram.com/inahya_santos/" target="_blank" sx={{ color: "black" }}>Instagram</Button>
+                        <WhatsAppIcon></WhatsAppIcon><p>31 7539-1829</p>
+
+                    </div>
 
 
                 </StyledContainer>
