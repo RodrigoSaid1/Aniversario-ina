@@ -47,7 +47,7 @@ export default function Presentes ( { imagem } ) {
                             {imagem.preco}
                         </Typography>
                         <Typography variant="body2">
-                    Pix: 33739767
+                    Pix: inahya.maria@hotmail.com
                         </Typography>
                     </ContentPix>
                 </StyledCardContent>

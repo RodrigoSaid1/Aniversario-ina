@@ -26,7 +26,13 @@ import presente12 from "./assets/presente12.jpg";
 import presente13 from "./assets/presente13.jpg";
 import presente14 from "./assets/presente14.jpg";
 import presente15 from "./assets/presente15.jpg";
-
+import presente16 from "./assets/presente16.jpg";
+import presente17 from "./assets/presente17.jpg";
+import presente18 from "./assets/presente18.jpg";
+import presente19 from "./assets/presente19.jpg";
+import presente20 from "./assets/presente20.jpg";
+import presente21 from "./assets/presente21.jpg";
+import presente22 from "./assets/presente22.jpg";
 
 const post = [
     {
@@ -147,6 +153,62 @@ const post = [
             imagemURL: presente15,
             name: "Vestido Curto Florido",
             preco: "R$ 50,11",
+        },
+    },
+    {
+        id: 16,
+        imagem: {
+            imagemURL: presente16,
+            name: "Chinelo havaianas ",
+            preco: "R$ 59,99",
+        },
+    },
+    {
+        id: 17,
+        imagem: {
+            imagemURL: presente17,
+            name: "Blusa",
+            preco: "R$ 23,99",
+        },
+    },
+    {
+        id: 18,
+        imagem: {
+            imagemURL: presente18,
+            name: "Vestido preto longo",
+            preco: "R$ 48,99",
+        },
+    },
+    {
+        id: 19,
+        imagem: {
+            imagemURL: presente19,
+            name: "Vestido longo bege ",
+            preco: "R$ 40,00",
+        },
+    },
+    {
+        id: 20,
+        imagem: {
+            imagemURL: presente20,
+            name: "Blusa tomara que caia preta ",
+            preco: "R$ 34,95",
+        },
+    },
+    {
+        id: 21,
+        imagem: {
+            imagemURL: presente21,
+            name: "Cropped Preto ",
+            preco: "R$ 35,00",
+        },
+    },
+    {
+        id: 22,
+        imagem: {
+            imagemURL: presente22,
+            name: "Blusa tomara que caia branca ",
+            preco: "R$ 29,90",
         },
     },
 
