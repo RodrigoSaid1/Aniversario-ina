@@ -18,6 +18,10 @@ const NomePreco = styled( Typography )( () => ( {
     fontSize: "1.5rem",
     textAlign: "center",
 } ) );
+const Descricao = styled( Typography )( () => ( {
+    fontSize: "1rem",
+    textAlign: "center",
+} ) );
 
 const StyledCardContent = styled( CardContent )( () => ( {
     height: "150px"
@@ -46,6 +50,9 @@ export default function Presentes ( { imagem } ) {
                         <Typography variant="body2">
                             {imagem.preco}
                         </Typography>
+                        <Descricao variant="h1">
+                            {imagem.descricao}
+                        </Descricao>
                         <Typography variant="body2">
                     Pix: inahya.maria@hotmail.com
                         </Typography>

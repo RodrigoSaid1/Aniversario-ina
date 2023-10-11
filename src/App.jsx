@@ -33,6 +33,8 @@ import presente19 from "./assets/presente19.jpg";
 import presente20 from "./assets/presente20.jpg";
 import presente21 from "./assets/presente21.jpg";
 import presente22 from "./assets/presente22.jpg";
+import presente23 from "./assets/presente23.jpg";
+import presente24 from "./assets/presente24.jpg";
 
 const post = [
     {
@@ -41,6 +43,7 @@ const post = [
             imagemURL: presente1,
             name: "Perfume Eudora Kiss Me rosa",
             preco: "R$ 84,54",
+            descricao: "Pois é meus amigos tenho que ficar cheirosa né, não é só de beleza que se vive kkkk",
         },
     },
     {
@@ -49,6 +52,7 @@ const post = [
             imagemURL: presente2,
             name: "Perfume ilia ",
             preco: "R$ 159,90",
+            descricao: "oi",
         },
     },
     {
@@ -57,6 +61,7 @@ const post = [
             imagemURL: presente3,
             name: "Perfume Egeo",
             preco: "R$ 129,90",
+            descricao: "oi",
         },
     },
     {
@@ -65,6 +70,7 @@ const post = [
             imagemURL: presente4,
             name: "Refil creme de Deleite",
             preco: "R$ 46,90",
+            descricao: "oi",
         },
     },
     {
@@ -73,6 +79,7 @@ const post = [
             imagemURL: presente5,
             name: "Bolsa Mala",
             preco: "R$ 48,90",
+            descricao: "oi",
         },
     },
     {
@@ -81,6 +88,7 @@ const post = [
             imagemURL: presente6,
             name: "Capinha farm",
             preco: "R$ 14,95",
+            descricao: "oi",
         },
     },
     {
@@ -89,6 +97,7 @@ const post = [
             imagemURL: presente7,
             name: "Blusa babado",
             preco: "R$ 32,00",
+            descricao: "oi",
         },
     },
     {
@@ -97,6 +106,7 @@ const post = [
             imagemURL: presente8,
             name: "Body preto e branco",
             preco: "R$ 46,00",
+            descricao: "oi",
         },
     },
     {
@@ -105,6 +115,7 @@ const post = [
             imagemURL: presente9,
             name: "Short Saia com cinto",
             preco: "R$ 58,00",
+            descricao: "oi",
         },
     },
     {
@@ -113,6 +124,7 @@ const post = [
             imagemURL: presente10,
             name: "Leave-in Match science",
             preco: "R$ 49,90",
+            descricao: "oi",
         },
     },
     {
@@ -121,6 +133,7 @@ const post = [
             imagemURL: presente11,
             name: "Sabonete líquido",
             preco: "R$ 39,90",
+            descricao: "oi",
         },
     },
     {
@@ -129,6 +142,7 @@ const post = [
             imagemURL: presente12,
             name: "Sandália de amarrar",
             preco: "R$ 56,99",
+            descricao: "oi",
         },
     },
     {
@@ -137,6 +151,7 @@ const post = [
             imagemURL: presente13,
             name: "Calça",
             preco: "R$ 54,99",
+            descricao: "oi",
         },
     },
     {
@@ -145,6 +160,7 @@ const post = [
             imagemURL: presente14,
             name: "Blusa Ursinho",
             preco: "R$ 29,99",
+            descricao: "oi",
         },
     },
     {
@@ -153,6 +169,7 @@ const post = [
             imagemURL: presente15,
             name: "Vestido Curto Florido",
             preco: "R$ 50,11",
+            descricao: "oi",
         },
     },
     {
@@ -161,6 +178,7 @@ const post = [
             imagemURL: presente16,
             name: "Chinelo havaianas ",
             preco: "R$ 59,99",
+            descricao: "oi",
         },
     },
     {
@@ -169,6 +187,7 @@ const post = [
             imagemURL: presente17,
             name: "Blusa",
             preco: "R$ 23,99",
+            descricao: "oi",
         },
     },
     {
@@ -177,6 +196,7 @@ const post = [
             imagemURL: presente18,
             name: "Vestido preto longo",
             preco: "R$ 48,99",
+            descricao: "oi",
         },
     },
     {
@@ -185,6 +205,7 @@ const post = [
             imagemURL: presente19,
             name: "Vestido longo bege ",
             preco: "R$ 40,00",
+            descricao: "oi",
         },
     },
     {
@@ -193,6 +214,7 @@ const post = [
             imagemURL: presente20,
             name: "Blusa tomara que caia preta ",
             preco: "R$ 34,95",
+            descricao: "oi",
         },
     },
     {
@@ -201,6 +223,7 @@ const post = [
             imagemURL: presente21,
             name: "Cropped Preto ",
             preco: "R$ 35,00",
+            descricao: "oi",
         },
     },
     {
@@ -209,6 +232,25 @@ const post = [
             imagemURL: presente22,
             name: "Blusa tomara que caia branca ",
             preco: "R$ 29,90",
+            descricao: "oi",
+        },
+    },
+    {
+        id: 23,
+        imagem: {
+            imagemURL: presente23,
+            name: "Meia com 12 pares",
+            preco: "R$ 23,99",
+            descricao: "oi",
+        },
+    },
+    {
+        id: 24,
+        imagem: {
+            imagemURL: presente24,
+            name: "Tênis air force",
+            preco: "R$ 123,00",
+            descricao: "oi",
         },
     },
 
