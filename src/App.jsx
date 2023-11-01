@@ -230,7 +230,7 @@ const post = [
         id: 18,
         imagem: {
             imagemURL: presente18,
-            name: "Vestido preto longo",
+            name: "Cropped Preto",
             preco: "R$ 48,99",
 
         },
@@ -239,8 +239,8 @@ const post = [
         id: 19,
         imagem: {
             imagemURL: presente19,
-            name: "Vestido longo bege ",
-            preco: "R$ 40,00",
+            name: "Vestido Preto Longo ",
+            preco: "R$ 48,00",
 
         },
     },
@@ -248,8 +248,8 @@ const post = [
         id: 20,
         imagem: {
             imagemURL: presente20,
-            name: "Blusa tomara que caia preta ",
-            preco: "R$ 34,95",
+            name: "Vestido Longo Bege ",
+            preco: "R$ 40,00",
 
         },
     },
@@ -257,7 +257,7 @@ const post = [
         id: 21,
         imagem: {
             imagemURL: presente21,
-            name: "Cropped Preto ",
+            name: "Tomara que Caia Preta ",
             preco: "R$ 35,00",
 
         },
@@ -303,7 +303,7 @@ const post = [
         imagem: {
             imagemURL: presente26,
             name: "Fone",
-            preco: "R$ 50,00",
+            preco: "R$ 57,56",
 
         },
     },
