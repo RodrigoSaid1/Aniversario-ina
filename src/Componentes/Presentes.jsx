@@ -6,6 +6,7 @@ const PresenteCard = styled( Card )( () => ( {
     alignItems: "center",
     gap: "1rem",
     border: "solid rgb(240, 201, 130)",
+    textAlign: "center",
 } ) );
 
 const Imagem = styled( CardMedia )( () => ( {
@@ -54,7 +55,7 @@ export default function Presentes ( { imagem } ) {
                             {imagem.descricao}
                         </Descricao>
                         <Typography variant="body2">
-                    Pix: inahya.maria@hotmail.com
+                    Pix: saidrodrigo0@gmail.com
                         </Typography>
                     </ContentPix>
                 </StyledCardContent>

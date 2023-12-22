@@ -1,5 +1,5 @@
 import { Box, Typography } from "@mui/material";
-import QRCodeImage from "../assets/pixQRCOD.jpg";
+import QRCodeImage from "../assets/qrcodeSaidBurgues.jpeg";
 const Pix = () => {
     return (
         <Box display="flex" flexDirection="column" alignItems="center">

@@ -3,7 +3,13 @@
     font-size: 7rem;
     text-align: center;
     font-family: "Great Vibes", cursive;
-    color: #cc0066;
+    color: black;
     size: 3.1rem;
     -webkit-text-stroke: 1px white;
+    display: flex;
+}
+.logo {
+    width: 7rem;
+    height: 7rem;
+    margin-right: 5rem;
 }
